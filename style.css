@@ -1,8 +1,11 @@
 p {
+  max-width: 750px;
+  margin: 0;
 }
 
 h3 {
   color: #65cc66;
+  text-transform: uppercase;
 }
 
 img {
@@ -10,4 +13,27 @@ img {
 
 .visitpics {
   width: 75%;
+}
+
+#jeremy {
+  color: green;
+}
+
+.header-bar {
+  font-weight: 900;
+  font-size: 50px;
+  color: #65cc66;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#logo {
+  width: 150px;
 }
