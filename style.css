@@ -34,3 +34,25 @@ h3 {
 #logo {
   width: 150px;
 }
+
+.festpicsbox {
+  display: flex;
+  flex-direction: row;
+}
+
+.festpics {
+  max-height: 250px;
+  min-height: 200 px;
+}
+
+.festpicsbox__duo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.caption {
+  font-style: italic;
+}
